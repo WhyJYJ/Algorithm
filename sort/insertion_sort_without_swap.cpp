@@ -22,6 +22,10 @@ void Insertion_Sort_Without_Swap(Type *_Array, int _n)
                 break;
             }
         }
+        if (_Array[0] > temp)
+        {
+            _Array[0] = temp;
+        }
     }
 }
 
